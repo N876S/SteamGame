@@ -1,10 +1,15 @@
+import java.awt.Color;
 import java.awt.Graphics;
 
 public class Game {
 	private int x;
 
 	public void draw(Graphics g) {
-		g.fillRect(x, 0, 100, 100);
+		g.setColor(Color.WHITE);
+		g.fillRect(-1, -1, 1280, 720);
+
+		g.setColor(Color.BLACK);
+		g.fillRect(x, 100, 100, 100);
 	}
 
 	public void update() {
