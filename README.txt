@@ -62,8 +62,8 @@ List of Classes:
 
 Annihilator
 Assassin
-Machine
 Crusher
+Machine
 Fearless
 Brute
 Coward
@@ -73,27 +73,27 @@ List of foods:
 
 European
 Name                    Rarity                  Class
- - Pizza                Common                     
- - Baguette             Exclusive               
- - Croissant            Common
- - Pasta                Common
- - Gelato               Legendary               
- - Fish & Chips         Uncommon
- - Ratatouille          Epic
- - Pasta Sauce          Rare
- - Escargot             Epic
- - Fancy Cheese         Uncommon
- - Pierogi              Rare
- - Schnitzel            Common
- - Fondue               Rare
- - Onion Soup           Common
- - Swedish Meatballs    Common
- - Lasagna              Uncommon
- - Spaghetti            Common
- - Waffles              Uncommon
- - Caprese Salad        Common
- - Pretzel              Common
+ - Pizza                Common                  None
+ - Baguette             Exclusive               Annihilator
+ - Croissant            Common                  None
+ - Pasta                Common                  None
+ - Gelato               Legendary               Assassin
+ - Fish & Chips         Uncommon                Coward
+ - Ratatouille          Epic                    Machine
+ - Pasta Sauce          Rare                    Fearless
+ - Escargot             Epic                    Crusher
+ - Fancy Cheese         Uncommon                Coward
+ - Pierogi              Rare                    Brute
+ - Schnitzel            Common                  Coward
+ - Fondue               Rare                    Fearless
+ - Onion Soup           Common                  None
+ - Swedish Meatballs    Common                  None
+ - Lasagna              Uncommon                Brute
+ - Spaghetti            Common                  Coward
+ - Waffles              Uncommon                None
+ - Caprese Salad        Common                  Coward
+ - Pretzel              Common                  None
 9 common, 4 uncommon, 3 rare, 2 epic, 1 leg, 1 exc
 
-Other features.
+Other features
 The ability to lock a tile so you can spam food on that specific tile (you can add multiple tiles)
