@@ -71,7 +71,29 @@ None
 
 List of foods:
 
-
+European
+Name                    Rarity                  Class
+ - Pizza                Common                     
+ - Baguette             Exclusive               
+ - Croissant            Common
+ - Pasta                Common
+ - Gelato               Legendary               
+ - Fish & Chips         Uncommon
+ - Ratatouille          Epic
+ - Pasta Sauce          Rare
+ - Escargot             Epic
+ - Fancy Cheese         Uncommon
+ - Pierogi              Rare
+ - Schnitzel            Common
+ - Fondue               Rare
+ - Onion Soup           Common
+ - Swedish Meatballs    Common
+ - Lasagna              Uncommon
+ - Spaghetti            Common
+ - Waffles              Uncommon
+ - Caprese Salad        Common
+ - Pretzel              Common
+9 common, 4 uncommon, 3 rare, 2 epic, 1 leg, 1 exc
 
 Other features.
 The ability to lock a tile so you can spam food on that specific tile (you can add multiple tiles)
