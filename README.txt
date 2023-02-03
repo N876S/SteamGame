@@ -51,12 +51,27 @@ Saturday - Drinks
 Sunday - Thailand
 
 In this game there is a class system. The class system is used so different characters can be stronger then others. 
-Characters that use these classes need what is called abilities
+Characters that use these classes need what is called abilities. Abilites can be something like resistance, extra damage, etc.
+If a character (food or creature) is in a class and has an ability, then the ability will be activated on ANY CLASS BELOW IT (exceptions)
+eg: an assassin's ability is effective against everything below it (fearless, brute, none)
+There is only one exception and that is the Annihilator.
+The annihilator's abilities work on every class except the None class
+One last thing is that abilities do not work on enemies with the same class
 
-Annihilator - Top class
+List of Classes:
+
+Annihilator
+Assassin
+Machine
+Crusher
+Fearless
+Brute
+Coward
+None
 
 List of foods:
 
 
+
 Other features.
-The ability to lock a tile so you can spam food on that specific tile
+The ability to lock a tile so you can spam food on that specific tile (you can add multiple tiles)
