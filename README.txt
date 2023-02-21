@@ -43,12 +43,12 @@ Exclusive: 0.1%
 In this game there will be different events depending on the week. Events are as follows:
 
 Monday - European
-Tuesday - Japanese
+Tuesday - Drinks
 Wednesday - American
-Thursday - Chinese
+Thursday - Asian
 Friday - Seafood
-Saturday - Drinks
-Sunday - Thailand
+Saturday - Desserts
+Sunday - Jackpot Day
 
 In this game there is a class system. The class system is used so different characters can be stronger then others. 
 Characters that use these classes need what is called abilities. Abilites can be something like resistance, extra damage, etc.
@@ -93,6 +93,31 @@ Name                    Rarity                  Class
  - Waffles              Uncommon                None
  - Caprese Salad        Common                  Coward
  - Pretzel              Common                  None
+Drinks
+ - Water
+ - Wine
+ - Coffee
+ - Lemonade
+ - Iced Tea
+ - Hot Chocolate
+ - Apple Juice
+ - Orange Juice
+ - Grape Juice
+ - Chocolate Milkshake
+ - Vanilla Milkshake
+ - Strawberry Milkshake
+ - Tea
+ - Milk
+ - Beer
+ - Coke
+ - Pepsi
+ - Sprite
+ - Chocolate Milk
+ - Banana Smoothie
+ - Blueberry Smoothie
+ - Coconut Milk
+ - Syrup
+
 9 common, 4 uncommon, 3 rare, 2 epic, 1 leg, 1 exc
 
 Other features
