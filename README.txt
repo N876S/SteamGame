@@ -95,28 +95,28 @@ Name                    Rarity                  Class
  - Pretzel              Common                  None
 9 common, 4 uncommon, 3 rare, 2 epic, 1 leg, 1 exc
 Drink
- - Water                Common
- - Wine                 
- - Coffee               
- - Lemonade             
- - Iced Tea             
+ - Water                Common                  Coward
+ - Wine                 Common                  None
+ - Coffee               Common                  Brute
+ - Lemonade             Uncommon                Coward
+ - Iced Tea             Common                  Coward
  - Hot Chocolate        Exclusive               Assassin
- - Apple Juice          Legendary
- - Orange Juice
- - Grape Juice
- - Chocolate Milkshake
- - Vanilla Milkshake
- - Strawberry Milkshake
- - Tea
- - Milk
- - Beer
- - Coke
- - Pepsi
- - Sprite
- - Chocolate Milk
- - Banana Smoothie
- - Strawberry Smoothie
- - Coconut Milk
+ - Apple Juice          Rare                    Machine
+ - Orange Juice         Rare                    Machine
+ - Grape Juice          Rare                    Machine
+ - Chocolate Milkshake  Epic                    Crusher
+ - Vanilla Milkshake    Epic                    Crusher
+ - Strawberry Milkshake Epic                    Crusher
+ - Tea                  Uncommon                None
+ - Milk                 Common                  Coward
+ - Beer                 Uncommon                Fearless
+ - Coke                 Common                  Brute
+ - Pepsi                Common                  Brute
+ - Sprite               Common                  Brute
+ - Chocolate Milk       Legendary               None
+ - Banana Smoothie      Uncommon                Annihilator
+ - Strawberry Smoothie  Uncommon                Annihilator
+ - Coconut Milk         Legendary               Machine
 8 common, 5 uncommon, 3 rare, 3 epic, 2 leg, 1 exc
 
 Other features
