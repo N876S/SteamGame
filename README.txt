@@ -93,14 +93,15 @@ Name                    Rarity                  Class
  - Waffles              Uncommon                None
  - Caprese Salad        Common                  Coward
  - Pretzel              Common                  None
-Drinks
- - Water
- - Wine
- - Coffee
- - Lemonade
- - Iced Tea
- - Hot Chocolate
- - Apple Juice
+9 common, 4 uncommon, 3 rare, 2 epic, 1 leg, 1 exc
+Drink
+ - Water                Common
+ - Wine                 
+ - Coffee               
+ - Lemonade             
+ - Iced Tea             
+ - Hot Chocolate        Exclusive               Assassin
+ - Apple Juice          Legendary
  - Orange Juice
  - Grape Juice
  - Chocolate Milkshake
@@ -114,11 +115,9 @@ Drinks
  - Sprite
  - Chocolate Milk
  - Banana Smoothie
- - Blueberry Smoothie
+ - Strawberry Smoothie
  - Coconut Milk
- - Syrup
-
-9 common, 4 uncommon, 3 rare, 2 epic, 1 leg, 1 exc
+8 common, 5 uncommon, 3 rare, 3 epic, 2 leg, 1 exc
 
 Other features
 The ability to lock a tile so you can spam food on that specific tile (you can add multiple tiles)
