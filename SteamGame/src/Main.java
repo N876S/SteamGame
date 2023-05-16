@@ -1,3 +1,4 @@
+
 import java.awt.Graphics;
 
 import javax.swing.JPanel;
@@ -6,22 +7,27 @@ public class Main extends JPanel implements Runnable{
 	private static final long serialVersionUID = 1L;
 	
 	Game game = new Game();
+	MouseHandler mh = new MouseHandler();
 	
 	// gameloop variables
     Thread thread = new Thread(this);
     private boolean running;
     private double updateRate = 1.0d / 60.0d;
     private long nextStatTime;
-    private int fps;
-    private int ups;
+    private static int fpsc;
+    private static int upsc;
+    public static int fps;
+    public static int ups;
     
-    public Main() {
+    private Main() {
     	thread.start();
     }
 
 	public static void main(String[] args) {
 		Main main = new Main();
-		new Window(main);
+		new Window(main, main.mh);
+		Runtime r = Runtime.getRuntime();
+		r.addShutdownHook(new Exiter());
 	}
 
 	public void run() {
@@ -40,16 +46,16 @@ public class Main extends JPanel implements Runnable{
 
             while (accumulator > updateRate) {
                 update();
-                ups++;
+                upsc++;
                 accumulator -= updateRate;
             }
             repaint();
-            fps++;
+            fpsc++;
             if (System.currentTimeMillis() > nextStatTime) {
-                System.out.println(ups);
-                System.out.println(fps);
-                fps = 0;
-                ups = 0;
+                fps = fpsc;
+                ups = upsc;
+                fpsc = 0;
+                upsc = 0;
                 nextStatTime = System.currentTimeMillis() + 1000;
             }
         }

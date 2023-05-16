@@ -2,17 +2,35 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class Game {
-	private int x;
+	
+	static Level l1 = new Level();
+	
+	public Game() {
+		
+	}
 
 	public void draw(Graphics g) {
-		g.setColor(Color.WHITE);
-		g.fillRect(-1, -1, 1280, 720);
-
-		g.setColor(Color.BLACK);
-		g.fillRect(x, 100, 100, 100);
+		g.setColor(Color.white);
+		g.fillRect(-1,-1,Window.width+1, Window.height+1);
+		g.setColor(Color.RED);
+		g.drawString("FPS: " + Integer.toString(Main.fps), 10, 20);
+		g.drawString("UPS: " + Integer.toString(Main.ups), 10, 35);
+		l1.drawLevel(g);
 	}
 
 	public void update() {
-		x++;
+		l1.updateLevel();
 	}
 }
+
+/*
+ * TODO LIST
+ * - encrypter
+ * 1. Collision Between Creatures and Foods
+ *  - Add ranged attacks
+ * 2. Design Food Statistics
+ * 3. Title Screen & Save System
+ * 4. Clean Up Warnings & Organize Into Packages
+ *
+ * 
+ * */
